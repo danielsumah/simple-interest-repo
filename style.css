@@ -1,0 +1,14 @@
+.all{
+    background-color: rgb(6, 88, 88);
+    font: large 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    color: wheat
+}
+
+#calculate{
+    background-color: cadetblue;
+    color: wheat;
+}
+

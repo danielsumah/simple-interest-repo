@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Interest Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="all">  
+        <div class="container">
+            <h3>This program helps you calculate calculate simple interest.</h3>
+            <div>
+                <label id = "prin">Principal</label>
+                <input type="number" name="principal" id="principal" placeholder="Enter principal">
+            </div>  
+            <br>
+            <div>
+                <label>Time</label>
+                <input type="number" name="time" id="time" placeholder="Enter time">
+            </div> 
+            <br>
+            <div>
+                <label>Rate</label>
+                <input type="number" name="rate" id="rate" placeholder="Enter rate">
+            </div>
+            <br>
+            <button id="calculate" onclick="calculateSimpleInterest()">Calculate</button>
+            <br>
+            <br>
+            <div>
+                <label>Answer</label>
+                <textarea name="answer" id="answer" cols="30" rows="2"></textarea>
+            </div>
+        </div> 
+    </body>
+
+    <script src="functionality.js"></script>
+</html>
